@@ -42,4 +42,5 @@ init_connect = 'SET NAMES utf8mb4'
 
 # fix Too many connections
 max_connections=1000
-wait_timeout=5
+wait_timeout=86400
+interactive_timeout=7200
