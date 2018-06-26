@@ -41,6 +41,6 @@ collation-server = utf8mb4_unicode_ci
 init_connect = 'SET NAMES utf8mb4'
 
 # fix Too many connections
-max_connections=1000
-wait_timeout=86400
-interactive_timeout=7200
+max_connections = 1000
+wait_timeout = 86400
+interactive_timeout = 7200
